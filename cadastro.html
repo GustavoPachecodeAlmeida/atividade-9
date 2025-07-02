@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="form-area">
+      <div class="form-container">
+        <div class="row">
+          <input type="text" id="nome" placeholder="Nome">
+          <input type="text" id="sobrenome" placeholder="Sobrenome">
+        </div>
+        <input type="text" id="endereco" placeholder="Endereço">
+        <input type="text" id="telefone" placeholder="Telefone">
+      </div>
+
+      <div class="buttons-container">
+        <button onclick="incluir()" class="incluir">INCLUIR</button>
+        <button onclick="editar()" class="editar">EDITAR</button>
+        <button onclick="salvar()" class="salvar">SALVAR</button>
+        <button onclick="cancelar()" class="cancelar">CANCELAR</button>
+        <button onclick="excluir()" class="excluir">EXCLUIR</button>
+      </div>
+    </div>
+
+    <div class="nav-buttons">
+      <button onclick="primeiro()">|&lt;</button>
+      <button onclick="anterior()">&lt;</button>
+      <button onclick="proximo()">&gt;</button>
+      <button onclick="ultimo()">&gt;|</button>
+    </div>
+  </div>
+
+  <script src="java.js"></script>
+</body>
+</html>
