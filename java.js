@@ -26,6 +26,7 @@ function incluir() {
     cadastros.push({ nome, sobrenome, endereco, telefone });
     indiceAtual = cadastros.length - 1;
     alert('Cadastro incluído com sucesso!');
+    limparCampos();
   } else {
     alert('Preencha todos os campos!');
   }
